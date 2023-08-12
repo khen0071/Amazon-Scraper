@@ -19,7 +19,7 @@ const Products = ({ products }) => {
         ) : (
           <div className="flex flex-col justify-center items-center mx-3 md:w-[600px] border-2 bg-orange-100 p-3 mt-3 border-orange-400 text-center rounded-lg">
             <p className="my-3 text-[12px] md:text-[16px]">
-              Our cutting-edge website harnesses the power of Scraping Amazon's
+              Our cutting-edge website harnesses the power of Scraping Amazons
               Data via our own API to provide you with real-time information,
               trends, and analysis about a diverse array of products available
               on the platform.
