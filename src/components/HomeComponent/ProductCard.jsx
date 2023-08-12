@@ -11,8 +11,10 @@ const ProductCard = ({ product }) => {
             <img src={image} alt="image" className="w-[200px]" />
           </div>
           <div className="w-full text-center text-slate-500">
-            <p className="font-[800] pb-2">{brand}</p>
-            <p>{name}</p>
+            <p className="font-[800] pb-2 text-[14px] md:text-[16px]">
+              {brand}
+            </p>
+            <p className="text-[14px] md:text-[16px]">{name}</p>
           </div>
           <div className="w-full flex justify-center flex-col my-6 items-center text-slate-500 space-y-3">
             {!price ? (
@@ -36,7 +38,7 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="flex space-y-3 flex-col justify-center items-center  mt-2 md:space-x-3 md:flex-row md:space-y-0">
           <a href={`${url}`} target="_blank" rel="noopener noreferrer">
-            <button className="border-2 bg-orange-500 text-white border-orange-300 px-6 py-2 w-[200px] rounded-md hover:border-orange-800 ease-in-out duration-500">
+            <button className="border-2 bg-orange-500 text-white border-orange-300 px-6 py-2 w-[200px] rounded-md hover:border-orange-800 ease-in-out duration-500 text-[14px] md:text-[16px]">
               {" "}
               Buy Product
             </button>
