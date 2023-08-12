@@ -17,7 +17,7 @@ const Products = ({ products }) => {
               })}
           </div>
         ) : (
-          <div className="flex flex-col justify-center items-center w-[600px] border-2 bg-orange-100 p-3 mt-3 border-orange-400 text-center rounded-lg">
+          <div className="flex flex-col justify-center items-center mx-3 md:w-[600px] border-2 bg-orange-100 p-3 mt-3 border-orange-400 text-center rounded-lg">
             <p className="my-3">
               <strong>Amazon Scraper API</strong> empowers you to make more
               informed shopping decisions by offering a data-driven approach to
