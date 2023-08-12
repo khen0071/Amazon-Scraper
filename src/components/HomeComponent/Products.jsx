@@ -19,11 +19,10 @@ const Products = ({ products }) => {
         ) : (
           <div className="flex flex-col justify-center items-center mx-3 md:w-[600px] border-2 bg-orange-100 p-3 mt-3 border-orange-400 text-center rounded-lg">
             <p className="my-3">
-              <strong>Amazon Scraper API</strong> empowers you to make more
-              informed shopping decisions by offering a data-driven approach to
-              online shopping. Whether you're a savvy shopper, a price-conscious
-              buyer, or someone who simply wants to stay updated on the latest
-              products, our website is your one-stop destination.
+              Our cutting-edge website harnesses the power of Scraping Amazon's
+              Data via our own API to provide you with real-time information,
+              trends, and analysis about a diverse array of products available
+              on the platform.
             </p>
             <p className="font-[700] text-orange-700 text-[20px] uppercase my-3">
               Start Searching Now!
